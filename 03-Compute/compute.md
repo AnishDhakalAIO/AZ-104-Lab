@@ -25,3 +25,7 @@
 ### lsblk Output (Inside VM-1)
 
 **Before restore:**
+
+Before: sda=30G (OS) | sdb=16G (temp) | sdc=4G (data, raw)
+
+After:  sdb=256G (OS restored) | sda=128G (data) | sdc=16G (temp
